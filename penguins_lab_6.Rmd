@@ -1,0 +1,26 @@
+---
+title: "penguins_ANOVA"
+author: "Nelson Gould"
+date: "11/6/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Load packages and read-in penguins.csv data
+
+```{r}
+
+library(tidyverse)
+library(car)
+library(onewaytests)
+
+penguins <- read_csv("penguins.csv")
+
+```
+
+
+
+
